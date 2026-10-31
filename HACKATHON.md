@@ -16,13 +16,13 @@ Solo participant.
 
 **Problem 08: Build Anything with Gemma 4 (Local AI Innovation Challenge, Gemma track)**
 
-Project: **Kuro**, an offline maintainer assistant. When a pull request changes code, Kuro finds the documentation sentences that the change made incorrect (renamed flags, changed defaults, removed options) and suggests a fix. All AI work is done by Gemma 4 running locally on the laptop. No cloud AI is used.
+Project: **Kuro**, your homie that runs fully offline on your own laptop. Kuro is a local AI assistant powered by Gemma 4: everything it understands and everything it generates comes from Gemma running on the laptop, with no cloud AI. The exact feature set is being finalised during the hackathon and will be documented in this file and the README through pull requests.
 
 ## AI models used
 
 | Model | Runtime | Role in the product | Why this model |
 |---|---|---|---|
-| `gemma4:e2b` | Ollama, local | Core AI: judges whether a documentation sentence is now incorrect given a specific code change, explains why, and writes the corrected sentence | Required by the Gemma track. The e2b size is the recommended choice for laptops with limited memory (ours is 8 GB), and it runs fully offline |
+| `gemma4:e2b` | Ollama, local | Core AI: all of Kuro's AI work (understanding the user's input and generating its responses) runs on this model | Required by the Gemma track. The e2b size is the recommended choice for laptops with limited memory (ours is 8 GB), and it runs fully offline |
 
 No other AI model is used by the product, locally or in the cloud.
 
