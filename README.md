@@ -1,6 +1,6 @@
-# docdrift
+# Kuro
 
-> One-line description.
+> Catches documentation made wrong by code changes. Powered by Gemma 4 running locally.
 
 ## Problem
 

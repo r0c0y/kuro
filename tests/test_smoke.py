@@ -1,2 +1,2 @@
 def test_import():
-    import docdrift  # noqa: F401
+    import kuro  # noqa: F401
