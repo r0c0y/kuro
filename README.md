@@ -1,6 +1,6 @@
 # Kuro
 
-> Catches documentation made wrong by code changes. Powered by Gemma 4 running locally.
+> Your homie that runs fully offline: a local AI assistant powered by Gemma 4.
 
 ## Problem
 
