@@ -16,7 +16,7 @@ Solo participant.
 
 **Problem 08: Build Anything with Gemma 4 (Local AI Innovation Challenge, Gemma track)**
 
-Project: **docdrift**, an offline maintainer assistant. When a pull request changes code, docdrift finds the documentation sentences that the change made incorrect (renamed flags, changed defaults, removed options) and suggests a fix. All AI work is done by Gemma 4 running locally on the laptop. No cloud AI is used.
+Project: **Kuro**, an offline maintainer assistant. When a pull request changes code, Kuro finds the documentation sentences that the change made incorrect (renamed flags, changed defaults, removed options) and suggests a fix. All AI work is done by Gemma 4 running locally on the laptop. No cloud AI is used.
 
 ## AI models used
 
